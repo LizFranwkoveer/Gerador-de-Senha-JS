@@ -1,3 +1,5 @@
+/*==== caracteres para gerar senha====*/
+
 const passInput = document.querySelector("#inputPasswordId");
 const lenInput = document.querySelector("#inputLengthId");
 const infoLength = document.querySelector('label[for="inputLengthId"]');
@@ -30,7 +32,7 @@ btnGerar.addEventListener("click", () => {
     lenInput.value
   );
 });
-
+/*==== combinações de senha====*/
 const generatePassword = (
   hasNumbers,
   hasSymbols,
